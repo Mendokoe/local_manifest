@@ -2,7 +2,7 @@
 <manifest>
         <remote name="Mendokoe"
                 fetch="https://github.com/Mendokoe" />
-        <project path="device/google/raviole" name="android_device_google_raviole-los" remote="Mendokoe" revision="lineage-23.2" clone-depth="1" />
+        <project path="device/google/raviole" name="android_device_google_raviole-los" remote="Mendokoe" revision="POS-dadi" clone-depth="1" />
         <project path="device/google/gs101" name="android_device_google_gs101" remote="Mendokoe" revision="lineage-23.2" clone-depth="1" />
         <project path="vendor/google/oriole" name="proprietary_vendor_google_oriole" remote="Mendokoe" revision="android16.2" clone-depth="1" />
         
