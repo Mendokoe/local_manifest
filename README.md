@@ -1,12 +1,12 @@
-# Local Manifest for Avium GApps
+# Local Manifest for Avium Vanilla
 
-Konfigurasi `local_manifest` untuk build ROM dengan integrasi GApps pada branch **avium-gapps**.
+Konfigurasi `local_manifest` untuk build ROM dengan integrasi GApps pada branch **avium-vanilla**.
 
 ## Step 1: Clone Manifest
 Klik tombol copy di bawah ini untuk clone manifest:
 
 ```bash
-git clone https://github.com/Mendokoe/local_manifest.git -b avium-gapps .repo/local_manifests
+git clone https://github.com/Mendokoe/local_manifest.git -b avium-vanilla .repo/local_manifest
 ```
 
 ## Step 2: Sync Source
