@@ -2,16 +2,15 @@
 <manifest>
         <remote name="Mendokoe"
                 fetch="https://github.com/Mendokoe" />
-        <project path="device/google/raviole" name="android_device_google_raviole" remote="Mendokoe" revision="Avium-16.2" clone-depth="1" />
+        <project path="device/google/bluejay" name="android_device_google_bluejay" remote="Mendokoe" revision="lineage-23.2" clone-depth="1" />
         <project path="device/google/gs101" name="android_device_google_gs101" remote="Mendokoe" revision="lineage-23.2" clone-depth="1" />
-        <project path="vendor/google/raven" name="proprietary_vendor_google_raven" remote="Mendokoe" revision="avium-vanilla" clone-depth="1" />
-        <project path="vendor/google/oriole" name="proprietary_vendor_google_oriole" remote="Mendokoe" revision="avium-vanilla" clone-depth="1" />
-
+        <project path="vendor/google/bluejay" name="proprietary_vendor_google_bluejay" remote="Mendokoe" revision="lineage-23.2" clone-depth="1" />
+        
         <project path="device/google/gs-common" name="android_device_google_gs-common" remote="Mendokoe" revision="lineage-23.2" clone-depth="1" />
 
         <remote name="bio"
                 fetch="https://github.com/Biohazardousrom" />
-        <project path="device/google/raviole-kernels" name="device_google_raviole-kernels_6.1" remote="bio" revision="16" clone-depth="1" />
+        <project path="device/google/bluejay-kernels" name="device_google_bluejay-kernels_6.1" remote="bio" revision="16" clone-depth="1" />
 
         <remote name="lib"
                 fetch="https://github.com/Libra420T" />
