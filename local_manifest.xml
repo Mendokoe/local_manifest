@@ -2,16 +2,21 @@
 <manifest>
         <remote name="Mendokoe"
                 fetch="https://github.com/Mendokoe" />
-        <project path="device/google/bluejay" name="android_device_google_bluejay" remote="Mendokoe" revision="lineage-23.2" clone-depth="1" />
-        <project path="device/google/gs101" name="android_device_google_gs101" remote="Mendokoe" revision="lunaris" clone-depth="1" />
+        <project path="device/google/bluejay" name="android_device_google_bluejay" remote="Mendokoe" revision="inf" clone-depth="1" />
+        <project path="device/google/gs101" name="android_device_google_gs101" remote="Mendokoe" revision="infinity" clone-depth="1" />
         <project path="vendor/google/bluejay" name="proprietary_vendor_google_bluejay" remote="Mendokoe" revision="lineage-23.2" clone-depth="1" />
         
         <project path="device/google/gs-common" name="android_device_google_gs-common" remote="Mendokoe" revision="lineage-23.2" clone-depth="1" />
-
+        
         <remote name="bio"
                 fetch="https://github.com/Biohazardousrom" />
         <project path="device/google/bluejay-kernels" name="device_google_bluejay-kernels_6.1" remote="bio" revision="16" clone-depth="1" />
-
+        
+        <remote name="xo"
+                fetch="https://github.com/xioyo" />
+        <remove-project name="vendor_infinity" />
+        <project path="vendor/infinity" name="vendor_infinity" remote="xo" revision="16.2" clone-depth="1" />
+        
         <remote name="lib"
                 fetch="https://github.com/Libra420T" />
         <project path="vendor/google/camera" name="vendor_google_camera" remote="lib" revision="16" clone-depth="1" />
