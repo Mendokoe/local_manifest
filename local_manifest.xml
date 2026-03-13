@@ -2,8 +2,8 @@
 <manifest>
         <remote name="Mendokoe"
                 fetch="https://github.com/Mendokoe" />
-        <project path="device/google/bluejay" name="android_device_google_bluejay" remote="Mendokoe" revision="lineage-23.2" clone-depth="1" />
-        <project path="device/google/gs101" name="android_device_google_gs101" remote="Mendokoe" revision="lunaris" clone-depth="1" />
+        <project path="device/google/bluejay" name="android_device_google_bluejay" remote="Mendokoe" revision="mist" clone-depth="1" />
+        <project path="device/google/gs101" name="android_device_google_gs101" remote="Mendokoe" revision="mist" clone-depth="1" />
         <project path="vendor/google/bluejay" name="proprietary_vendor_google_bluejay" remote="Mendokoe" revision="lineage-23.2" clone-depth="1" />
         
         <project path="device/google/gs-common" name="android_device_google_gs-common" remote="Mendokoe" revision="lineage-23.2" clone-depth="1" />
