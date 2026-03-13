@@ -1,12 +1,12 @@
-# Local Manifest for Avium Vanilla
+# Local Manifest for MistOs
 
-Konfigurasi `local_manifest` untuk build ROM dengan integrasi GApps pada branch **avium-vanilla**.
+Konfigurasi `local_manifest` untuk build ROM pada branch **mist**.
 
 ## Step 1: Clone Manifest
 Klik tombol copy di bawah ini untuk clone manifest:
 
 ```bash
-git clone https://github.com/Mendokoe/local_manifest.git -b avium-vanilla .repo/local_manifests
+git clone https://github.com/Mendokoe/local_manifest.git -b mist .repo/local_manifests
 ```
 
 ## Step 2: Sync Source
